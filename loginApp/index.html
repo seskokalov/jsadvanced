@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn App</title>
+</head>
+
+<body>
+    <fieldset id="logIn">
+        <form action="" method="POST" id="loginForm">
+            <label for="existingUser">Username:</label>
+            <input id="existingUser" type="text">
+            <label for="existingPass">Password:</label>
+            <input id="existingPass" type="password">
+            <input id="existingSubmit" type="submit" value="Log In">
+        </form>
+    </fieldset>
+
+    </br>
+
+    <h3>Don't have an account? You can always register! Please fill in the form below</h3>
+
+    </br>
+
+    <fieldset id="register">
+        <form action="" method="POST" id="registerForm">
+            <label for="registerUser">Username:</label>
+            <input id="registerUser" type="text" />
+            <label for="registerPass">Password:</label>
+            <input id="registerPass" type="password" />
+            <input id="registerSubmit" type="submit" value="Register">
+        </form>
+    </fieldset>
+
+    </br>
+
+    <p id="currentUser"></p>
+
+    </br>   
+
+    <p>
+        <ol id="printUsers">
+            
+        </ol>
+    </p>
+
+    </br>
+
+    <button id="logOut">Log Out</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
